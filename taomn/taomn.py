@@ -151,7 +151,7 @@ def inspect() -> None:
     display.detail_identity(identity)
     display.newline()
     coinbase = configuration.services['tao'].execute(
-        'tomo account list --keystore keystore 2> /dev/null | head -n 1 | cut '
+        'tao account list --keystore keystore 2> /dev/null | head -n 1 | cut '
         '-d"{" -f 2 | cut -d"}" -f 1'
     )
     if coinbase:

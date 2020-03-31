@@ -9,8 +9,8 @@ repository = "https://github.com/taoblockchain/taomn"
 documentation = "https://docs.tao.network/masternode/taomn/"
 keywords = ["tao", "blockchain", "masternode", "node"]
 authors = [
-  "Etienne Napoleone <etienne@tao.com>",
-  "Bryce Weiner <bryce@tao.network>"
+  "Bryce Weiner <bryce@tao.network>",
+  "Etienne Napoleone <etienne@tomochain.com>"
 ]
 
 [tool.poetry.dependencies]
