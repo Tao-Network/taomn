@@ -312,7 +312,7 @@ def error_start_not_initialized() -> None:
 
 
 def error_start_option_required(option: str) -> None:
-    "Custom error when `taomn start` is used with name but not the other options"
+    "Custom error when `taomn start` used with name but not the other options"
     error(
         '<hy>{}</hy> is required when starting a new masternode'
         .format(option)

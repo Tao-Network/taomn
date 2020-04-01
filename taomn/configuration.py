@@ -87,7 +87,7 @@ class Configuration:
             tag = 'latest'
         if self.api == 'True':  # this is dirty, should be refactored
             tao_ports = {'20202/udp': 20202, '20202/tcp': 20202,
-                               '8545/tcp': 8545, '8546/tcp': 8546}
+                            '8545/tcp': 8545, '8546/tcp': 8546}
         else:
             tao_ports = {'20202/udp': 20202, '20202/tcp': 20202}
         self.services['tao'] = Service(

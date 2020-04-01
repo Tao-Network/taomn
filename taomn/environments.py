@@ -15,7 +15,7 @@ environments = {
             'NETSTATS_PORT': '443',
             'NETWORK_ID': '558',
             'WS_SECRET': (
-                'trowel-moral-freedom-able-chest-perfect-purity-pantyhose-disarray-lining-hatching-climate'
+                'trowel-moral-freedom-able-chest-success-climate'
             )
         },
     },
