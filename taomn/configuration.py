@@ -86,10 +86,10 @@ class Configuration:
         else:
             tag = 'latest'
         if self.api == 'True':  # this is dirty, should be refactored
-            tao_ports = {'30303/udp': 30303, '30303/tcp': 30303,
+            tao_ports = {'20202/udp': 20202, '20202/tcp': 20202,
                                '8545/tcp': 8545, '8546/tcp': 8546}
         else:
-            tao_ports = {'30303/udp': 30303, '30303/tcp': 30303}
+            tao_ports = {'20202/udp': 20202, '20202/tcp': 20202}
         self.services['tao'] = Service(
             name='{}_tao'.format(self.name),
             image='tao/node:{}'.format(
