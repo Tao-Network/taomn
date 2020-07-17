@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "taomn"
-version = "0.5.3"
+version = "0.5.4"
 description = "Quickstart your Tao masternode"
 readme = "README.md"
 license = "GPL-3.0+"
